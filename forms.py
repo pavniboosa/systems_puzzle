@@ -6,4 +6,4 @@ class ItemForm(FlaskForm):
     name = StringField('name', validators=[DataRequired()])
     quantity = StringField('quantity', validators=[DataRequired()])
     description = StringField('description', validators=[DataRequired()])
-© 2019 GitHub, Inc.
+
